@@ -1,0 +1,392 @@
+---
+layout: default
+---
+  
+<!doctype html>
+<html>
+<body>
+
+<h2>Models</h2>
+<p>In this demo, we present rhythm-only, pitch-only, and timbre-only conversion results using the following models</p>
+<ul>
+    <li><b>SPSP-S</b>: SpeechSplit model with small bottleneck</li>
+    <li><b>SPSP-L</b>: SpeechSplit model with large bottleneck</li>
+    <li><b>SPSP2-S</b>: SpeechSplit2 model with small bottleneck</li>
+    <li><b>SPSP2-L</b>: SpeechSplit2 model with large bottleneck</li>
+</ul>
+
+<section>
+
+<h2>Rhythm-only Conversion</h2>
+
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+    <th>Source Speech</th>
+    <th>Target Speech</th>
+    <th>Conversion</th>
+    <th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td rowspan="4"> <audio controls=""><source src="assets/audios/R/p226_003002_p244_003002_s.wav" /><embed height="50" src="assets/audios/R/p226_003002_p244_003002_s.wav" width="100"></embed></audio></td>
+    <td rowspan="4"> <audio controls=""><source src="assets/audios/R/p226_003002_p244_003002_t.wav" /><embed height="50" src="assets/audios/R/p226_003002_p244_003002_t.wav" width="100"></embed></audio></td>
+    <td>SPSP-S</td>
+    <td><audio controls=""><source src="assets/audios/R/p226_003002_p244_003002_spsp1-s.wav" /><embed height="50" src="assets/audios/R/p226_003002_p244_003002_spsp1-s.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP-L</td>
+    <td><audio controls=""><source src="assets/audios/R/p226_003002_p244_003002_spsp1-l.wav" /><embed height="50" src="assets/audios/R/p226_003002_p244_003002_spsp1-l.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP2-S</td>
+    <td><audio controls=""><source src="assets/audios/R/p226_003002_p244_003002_spsp2-s.wav" /><embed height="50" src="assets/audios/R/p226_003002_p244_003002_spsp2-s.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP2-L</td>
+    <td><audio controls=""><source src="assets/audios/R/p226_003002_p244_003002_spsp2-l.wav" /><embed height="50" src="assets/audios/R/p226_003002_p244_003002_spsp2-l.wav" width="100"></embed></audio>
+    </td>
+</tr>
+
+
+</tbody>
+
+<tbody>
+<tr>
+    <td rowspan="4"> <audio controls=""><source src="assets/audios/R/p227_001_p258_001_s.wav" /><embed height="50" src="assets/audios/R/p227_001_p258_001_s.wav" width="100"></embed></audio></td>
+    <td rowspan="4"> <audio controls=""><source src="assets/audios/R/p227_001_p258_001_t.wav" /><embed height="50" src="assets/audios/R/p227_001_p258_001_t.wav" width="100"></embed></audio></td>
+    <td>SPSP-S</td>
+    <td><audio controls=""><source src="assets/audios/R/p227_001_p258_001_spsp1-s.wav" /><embed height="50" src="assets/audios/R/p227_001_p258_001_spsp1-s.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP-L</td>
+    <td><audio controls=""><source src="assets/audios/R/p227_001_p258_001_spsp1-l.wav" /><embed height="50" src="assets/audios/R/p227_001_p258_001_spsp1-l.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP2-S</td>
+    <td><audio controls=""><source src="assets/audios/R/p227_001_p258_001_spsp2-s.wav" /><embed height="50" src="assets/audios/R/p227_001_p258_001_spsp2-s.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP2-L</td>
+    <td><audio controls=""><source src="assets/audios/R/p227_001_p258_001_spsp2-l.wav" /><embed height="50" src="assets/audios/R/p227_001_p258_001_spsp2-l.wav" width="100"></embed></audio>
+    </td>
+</tr>
+
+
+</tbody>
+
+<tbody>
+    <tr>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/R/p231_003001_p226_003001_s.wav" /><embed height="50" src="assets/audios/R/p231_003001_p226_003001_s.wav" width="100"></embed></audio></td>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/R/p231_003001_p226_003001_t.wav" /><embed height="50" src="assets/audios/R/p231_003001_p226_003001_t.wav" width="100"></embed></audio></td>
+        <td>SPSP-S</td>
+        <td><audio controls=""><source src="assets/audios/R/p231_003001_p226_003001_spsp1-s.wav" /><embed height="50" src="assets/audios/R/p231_003001_p226_003001_spsp1-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP-L</td>
+        <td><audio controls=""><source src="assets/audios/R/p231_003001_p226_003001_spsp1-l.wav" /><embed height="50" src="assets/audios/R/p231_003001_p226_003001_spsp1-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-S</td>
+        <td><audio controls=""><source src="assets/audios/R/p231_003001_p226_003001_spsp2-s.wav" /><embed height="50" src="assets/audios/R/p231_003001_p226_003001_spsp2-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-L</td>
+        <td><audio controls=""><source src="assets/audios/R/p231_003001_p226_003001_spsp2-l.wav" /><embed height="50" src="assets/audios/R/p231_003001_p226_003001_spsp2-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    
+    
+</tbody>
+
+<tbody>
+    <tr>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/R/p233_003001_p225_003001_s.wav" /><embed height="50" src="assets/audios/R/p233_003001_p225_003001_s.wav" width="100"></embed></audio></td>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/R/p233_003001_p225_003001_t.wav" /><embed height="50" src="assets/audios/R/p233_003001_p225_003001_t.wav" width="100"></embed></audio></td>
+        <td>SPSP-S</td>
+        <td><audio controls=""><source src="assets/audios/R/p233_003001_p225_003001_spsp1-s.wav" /><embed height="50" src="assets/audios/R/p233_003001_p225_003001_spsp1-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP-L</td>
+        <td><audio controls=""><source src="assets/audios/R/p233_003001_p225_003001_spsp1-l.wav" /><embed height="50" src="assets/audios/R/p233_003001_p225_003001_spsp1-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-S</td>
+        <td><audio controls=""><source src="assets/audios/R/p233_003001_p225_003001_spsp2-s.wav" /><embed height="50" src="assets/audios/R/p233_003001_p225_003001_spsp2-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-L</td>
+        <td><audio controls=""><source src="assets/audios/R/p233_003001_p225_003001_spsp2-l.wav" /><embed height="50" src="assets/audios/R/p233_003001_p225_003001_spsp2-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    
+    
+</tbody>
+
+</table>
+</div>
+
+<h2>Pitch-only Conversion</h2>
+
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+    <th>Source Speech</th>
+    <th>Target Speech</th>
+    <th>Conversion</th>
+    <th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td rowspan="4"> <audio controls=""><source src="assets/audios/F/p225_003001_p233_003001_s.wav" /><embed height="50" src="assets/audios/F/p225_003001_p233_003001_s.wav" width="100"></embed></audio></td>
+    <td rowspan="4"> <audio controls=""><source src="assets/audios/F/p225_003001_p233_003001_t.wav" /><embed height="50" src="assets/audios/F/p225_003001_p233_003001_t.wav" width="100"></embed></audio></td>
+    <td>SPSP-S</td>
+    <td><audio controls=""><source src="assets/audios/F/p225_003001_p233_003001_spsp1-s.wav" /><embed height="50" src="assets/audios/F/p225_003001_p233_003001_spsp1-s.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP-L</td>
+    <td><audio controls=""><source src="assets/audios/F/p225_003001_p233_003001_spsp1-l.wav" /><embed height="50" src="assets/audios/F/p225_003001_p233_003001_spsp1-l.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP2-S</td>
+    <td><audio controls=""><source src="assets/audios/F/p225_003001_p233_003001_spsp2-s.wav" /><embed height="50" src="assets/audios/F/p225_003001_p233_003001_spsp2-s.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP2-L</td>
+    <td><audio controls=""><source src="assets/audios/F/p225_003001_p233_003001_spsp2-l.wav" /><embed height="50" src="assets/audios/F/p225_003001_p233_003001_spsp2-l.wav" width="100"></embed></audio>
+    </td>
+</tr>
+
+
+</tbody>
+
+<tbody>
+    <tr>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/F/p227_001_p258_001_s.wav" /><embed height="50" src="assets/audios/F/p227_001_p258_001_s.wav" width="100"></embed></audio></td>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/F/p227_001_p258_001_t.wav" /><embed height="50" src="assets/audios/F/p227_001_p258_001_t.wav" width="100"></embed></audio></td>
+        <td>SPSP-S</td>
+        <td><audio controls=""><source src="assets/audios/F/p227_001_p258_001_spsp1-s.wav" /><embed height="50" src="assets/audios/F/p227_001_p258_001_spsp1-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP-L</td>
+        <td><audio controls=""><source src="assets/audios/F/p227_001_p258_001_spsp1-l.wav" /><embed height="50" src="assets/audios/F/p227_001_p258_001_spsp1-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-S</td>
+        <td><audio controls=""><source src="assets/audios/F/p227_001_p258_001_spsp2-s.wav" /><embed height="50" src="assets/audios/F/p227_001_p258_001_spsp2-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-L</td>
+        <td><audio controls=""><source src="assets/audios/F/p227_001_p258_001_spsp2-l.wav" /><embed height="50" src="assets/audios/F/p227_001_p258_001_spsp2-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    
+    
+</tbody>
+
+<tbody>
+    <tr>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/F/p233_003001_p270_003001_s.wav" /><embed height="50" src="assets/audios/F/p233_003001_p270_003001_s.wav" width="100"></embed></audio></td>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/F/p233_003001_p270_003001_t.wav" /><embed height="50" src="assets/audios/F/p233_003001_p270_003001_t.wav" width="100"></embed></audio></td>
+        <td>SPSP-S</td>
+        <td><audio controls=""><source src="assets/audios/F/p233_003001_p270_003001_spsp1-s.wav" /><embed height="50" src="assets/audios/F/p233_003001_p270_003001_spsp1-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP-L</td>
+        <td><audio controls=""><source src="assets/audios/F/p233_003001_p270_003001_spsp1-l.wav" /><embed height="50" src="assets/audios/F/p233_003001_p270_003001_spsp1-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-S</td>
+        <td><audio controls=""><source src="assets/audios/F/p233_003001_p270_003001_spsp2-s.wav" /><embed height="50" src="assets/audios/F/p233_003001_p270_003001_spsp2-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-L</td>
+        <td><audio controls=""><source src="assets/audios/F/p233_003001_p270_003001_spsp2-l.wav" /><embed height="50" src="assets/audios/F/p233_003001_p270_003001_spsp2-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    
+    
+</tbody>
+
+<tbody>
+    <tr>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/F/p258_001_p228_001_s.wav" /><embed height="50" src="assets/audios/F/p258_001_p228_001_s.wav" width="100"></embed></audio></td>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/F/p258_001_p228_001_t.wav" /><embed height="50" src="assets/audios/F/p258_001_p228_001_t.wav" width="100"></embed></audio></td>
+        <td>SPSP-S</td>
+        <td><audio controls=""><source src="assets/audios/F/p258_001_p228_001_spsp1-s.wav" /><embed height="50" src="assets/audios/F/p258_001_p228_001_spsp1-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP-L</td>
+        <td><audio controls=""><source src="assets/audios/F/p258_001_p228_001_spsp1-l.wav" /><embed height="50" src="assets/audios/F/p258_001_p228_001_spsp1-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-S</td>
+        <td><audio controls=""><source src="assets/audios/F/p258_001_p228_001_spsp2-s.wav" /><embed height="50" src="assets/audios/F/p258_001_p228_001_spsp2-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-L</td>
+        <td><audio controls=""><source src="assets/audios/F/p258_001_p228_001_spsp2-l.wav" /><embed height="50" src="assets/audios/F/p258_001_p228_001_spsp2-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    
+    
+</tbody>
+
+</table>
+</div>
+
+<h2>Timbre-only Conversion</h2>
+
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+    <th>Source Speech</th>
+    <th>Target Speech</th>
+    <th>Conversion</th>
+    <th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td rowspan="4"> <audio controls=""><source src="assets/audios/U/p225_003001_p228_003001_s.wav" /><embed height="50" src="assets/audios/U/p225_003001_p228_003001_s.wav" width="100"></embed></audio></td>
+    <td rowspan="4"> <audio controls=""><source src="assets/audios/U/p225_003001_p228_003001_t.wav" /><embed height="50" src="assets/audios/U/p225_003001_p228_003001_t.wav" width="100"></embed></audio></td>
+    <td>SPSP-S</td>
+    <td><audio controls=""><source src="assets/audios/U/p225_003001_p228_003001_spsp1-s.wav" /><embed height="50" src="assets/audios/U/p225_003001_p228_003001_spsp1-s.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP-L</td>
+    <td><audio controls=""><source src="assets/audios/U/p225_003001_p228_003001_spsp1-l.wav" /><embed height="50" src="assets/audios/U/p225_003001_p228_003001_spsp1-l.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP2-S</td>
+    <td><audio controls=""><source src="assets/audios/U/p225_003001_p228_003001_spsp2-s.wav" /><embed height="50" src="assets/audios/U/p225_003001_p228_003001_spsp2-s.wav" width="100"></embed></audio>
+    </td>
+</tr>
+<tr>
+    <td>SPSP2-L</td>
+    <td><audio controls=""><source src="assets/audios/U/p225_003001_p228_003001_spsp2-l.wav" /><embed height="50" src="assets/audios/U/p225_003001_p228_003001_spsp2-l.wav" width="100"></embed></audio>
+    </td>
+</tr>
+
+
+</tbody>
+
+<tbody>
+    <tr>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/U/p225_024002_p270_024002_s.wav" /><embed height="50" src="assets/audios/U/p225_024002_p270_024002_s.wav" width="100"></embed></audio></td>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/U/p225_024002_p270_024002_t.wav" /><embed height="50" src="assets/audios/U/p225_024002_p270_024002_t.wav" width="100"></embed></audio></td>
+        <td>SPSP-S</td>
+        <td><audio controls=""><source src="assets/audios/U/p225_024002_p270_024002_spsp1-s.wav" /><embed height="50" src="assets/audios/U/p225_024002_p270_024002_spsp1-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP-L</td>
+        <td><audio controls=""><source src="assets/audios/U/p225_024002_p270_024002_spsp1-l.wav" /><embed height="50" src="assets/audios/U/p225_024002_p270_024002_spsp1-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-S</td>
+        <td><audio controls=""><source src="assets/audios/U/p225_024002_p270_024002_spsp2-s.wav" /><embed height="50" src="assets/audios/U/p225_024002_p270_024002_spsp2-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-L</td>
+        <td><audio controls=""><source src="assets/audios/U/p225_024002_p270_024002_spsp2-l.wav" /><embed height="50" src="assets/audios/U/p225_024002_p270_024002_spsp2-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    
+    
+</tbody>
+
+<tbody>
+    <tr>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/U/p227_024001_p229_024001_s.wav" /><embed height="50" src="assets/audios/U/p227_024001_p229_024001_s.wav" width="100"></embed></audio></td>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/U/p227_024001_p229_024001_t.wav" /><embed height="50" src="assets/audios/U/p227_024001_p229_024001_t.wav" width="100"></embed></audio></td>
+        <td>SPSP-S</td>
+        <td><audio controls=""><source src="assets/audios/U/p227_024001_p229_024001_spsp1-s.wav" /><embed height="50" src="assets/audios/U/p227_024001_p229_024001_spsp1-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP-L</td>
+        <td><audio controls=""><source src="assets/audios/U/p227_024001_p229_024001_spsp1-l.wav" /><embed height="50" src="assets/audios/U/p227_024001_p229_024001_spsp1-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-S</td>
+        <td><audio controls=""><source src="assets/audios/U/p227_024001_p229_024001_spsp2-s.wav" /><embed height="50" src="assets/audios/U/p227_024001_p229_024001_spsp2-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-L</td>
+        <td><audio controls=""><source src="assets/audios/U/p227_024001_p229_024001_spsp2-l.wav" /><embed height="50" src="assets/audios/U/p227_024001_p229_024001_spsp2-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    
+    
+</tbody>
+
+<tbody>
+    <tr>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/U/p232_024002_p270_024002_s.wav" /><embed height="50" src="assets/audios/U/p232_024002_p270_024002_s.wav" width="100"></embed></audio></td>
+        <td rowspan="4"> <audio controls=""><source src="assets/audios/U/p232_024002_p270_024002_t.wav" /><embed height="50" src="assets/audios/U/p232_024002_p270_024002_t.wav" width="100"></embed></audio></td>
+        <td>SPSP-S</td>
+        <td><audio controls=""><source src="assets/audios/U/p232_024002_p270_024002_spsp1-s.wav" /><embed height="50" src="assets/audios/U/p232_024002_p270_024002_spsp1-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP-L</td>
+        <td><audio controls=""><source src="assets/audios/U/p232_024002_p270_024002_spsp1-l.wav" /><embed height="50" src="assets/audios/U/p232_024002_p270_024002_spsp1-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-S</td>
+        <td><audio controls=""><source src="assets/audios/U/p232_024002_p270_024002_spsp2-s.wav" /><embed height="50" src="assets/audios/U/p232_024002_p270_024002_spsp2-s.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    <tr>
+        <td>SPSP2-L</td>
+        <td><audio controls=""><source src="assets/audios/U/p232_024002_p270_024002_spsp2-l.wav" /><embed height="50" src="assets/audios/U/p232_024002_p270_024002_spsp2-l.wav" width="100"></embed></audio>
+        </td>
+    </tr>
+    
+    
+</tbody>
+
+</table>
+</div>
+
+<br></br><br></br>
+</section>
+</body>
+</html>
